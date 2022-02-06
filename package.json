@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://hector4like6gorillaz.github.io/grass/",
   "scripts": {
-    "dev": "node next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next build && next export"
