@@ -1,7 +1,6 @@
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 const nextConfig = {
-  target: "serverless",
   assetPrefix: "https://hector4like6gorillaz.github.io/grass",
   basePath: "https://hector4like6gorillaz.github.io/grass",
   reactStrictMode: true,
