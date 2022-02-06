@@ -1,8 +1,8 @@
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 const nextConfig = {
-  assetPrefix: "https://hector4like6gorillaz.github.io/grass",
-  basePath: "//hector4like6gorillaz.github.io/grass",
+  assetPrefix: "/grass/",
+  basePath: "/grass",
   reactStrictMode: true,
   images: {
     disableStaticImages: true,
