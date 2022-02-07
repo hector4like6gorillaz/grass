@@ -5,7 +5,9 @@ import {
   GetNormalFamily,
 } from "../../../styles/createGlobalStyles";
 
-export const DivCarouselContainer = styled.div``;
+export const DivCarouselContainer = styled.div`
+  padding-bottom: 5%;
+`;
 
 export const DivMessage = styled.div`
   margin-top: 4%;
