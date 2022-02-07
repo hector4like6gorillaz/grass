@@ -1,6 +1,7 @@
 import React from "react";
 import CardHover from "../cardHover/CardHover";
 import { DivContainerGrid } from "./StyledGridHover";
+const prefix = "/grass";
 const Contenidos = [
   {
     Title: "LAWNS",
@@ -77,7 +78,7 @@ const GridHover = () => {
               Title={Title}
               SubTitle={SubTitle}
               Description={Description}
-              img={img}
+              img={prefix + img}
             />
           </div>
         );

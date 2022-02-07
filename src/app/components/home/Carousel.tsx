@@ -15,7 +15,7 @@ import {
   Ptitle,
   RightArrow,
 } from "./styledCarousel";
-
+const prefix = "/grass";
 const CarouselDates = [
   {
     title: "DESIGNED FOR PROFESIONAL GOLFERS",
@@ -42,11 +42,11 @@ const CarouselDates = [
     picture: require("../../../../assets/image/golf.png"),
   },
 ];
-const prefix='/grass'
+
 const Carousel = () => {
   const [information, setInformation] = useState(0);
   const handleRight = () => {
-    if (information < CarouselDates.length-1) setInformation(information + 1);
+    if (information < CarouselDates.length - 1) setInformation(information + 1);
     else setInformation(0);
   };
   const handleLeft = () => {
@@ -77,7 +77,7 @@ const Carousel = () => {
         <DivImgContainer>
           <ImgCarousell
             alt="img carousel"
-            src={prefix+CarouselDates[information].picture}
+            src={prefix + CarouselDates[information].picture}
           />
         </DivImgContainer>
         <RightArrow>
