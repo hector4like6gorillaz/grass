@@ -16,6 +16,7 @@ export const DivCardGrid = styled.div`
 export const DivCardImgContainer = styled.div`
   width: 100%;
   height: 100%;
+  overflow: hidden;
 `;
 
 export const DivRightTexContainer = styled.div`
