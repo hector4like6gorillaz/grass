@@ -1,4 +1,5 @@
 import React from "react";
+import { prefix } from "../../../pages/_app";
 import {
   DivCardGrid,
   DivCardImgContainer,
@@ -19,7 +20,7 @@ const CardsBottom = () => {
         <DivLeftTextContainer>
           <DivIconContainer>
             <ImgIconCardBottom
-              src={require("../../../../assets/image/park.png")}
+              src={prefix + require("../../../../assets/image/park.png")}
             />
           </DivIconContainer>
           <PWords>It starts with an idea</PWords>
@@ -36,7 +37,7 @@ const CardsBottom = () => {
         <DivCardImgContainer>
           <ImgCardBottom
             alt="grass img"
-            src={require("../../../../assets/image/lanmark-bg.jpeg")}
+            src={prefix + require("../../../../assets/image/lanmark-bg.jpeg")}
           />
         </DivCardImgContainer>
       </DivCardGrid>
@@ -44,13 +45,13 @@ const CardsBottom = () => {
         <DivCardImgContainer>
           <ImgCardBottom
             alt="grass img"
-            src={require("../../../../assets/image/mexico verde.jpeg")}
+            src={prefix + require("../../../../assets/image/mexico verde.jpeg")}
           />
         </DivCardImgContainer>
         <DivRightTexContainer>
           <DivIconContainer>
             <ImgIconCardBottom
-              src={require("../../../../assets/image/mexico.png")}
+              src={prefix + require("../../../../assets/image/mexico.png")}
             />
           </DivIconContainer>
           <PWords>Your Installation Partner</PWords>
