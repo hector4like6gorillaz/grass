@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '/grass',
   
-  assetPrefix: 'https://cdn.statically.io/gh/hector4like6gorillaz/hector4like6gorillaz.github.io/grass/',
+  assetPrefix: '/grass/',
   images: {
     disableStaticImages: true,
   },
