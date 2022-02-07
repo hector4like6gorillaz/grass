@@ -25,17 +25,20 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        
-    - run: npm ci
-    - run: npm run build
+    - name: Instalando mis packages npm    
+      run: npm ci
+    - name: Haciendo el build     
+      run: npm run build
       env:
         NEXT_PUBLIC_BASE_PATH: /grass
-    - run: npm run export      
+    - name: Haciendo la exportacion     
+      run: npm run export      
       env:
         NEXT_PUBLIC_BASE_PATH: /grass
-    - run: touch ./out/.nojekyll
+    - name: Creando el nojekyll     
+      run: touch ./out/.nojekyll
 
-    - name: Deploy 🚀 yei!!
+    - name: Haciendo el Deploy 🚀 yei!!
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
