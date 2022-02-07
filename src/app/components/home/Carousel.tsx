@@ -64,7 +64,7 @@ const Carousel = () => {
           <ButtonImgArrow onClick={handleLeft}>
             <ImgArrow
               alt="img"
-              src={prefix+require("../../../../assets/icons/signature-arrow-prev.svg")}
+              src={require("../../../../assets/icons/signature-arrow-prev.svg")}
             />
           </ButtonImgArrow>
         </LeftArrow>
@@ -85,7 +85,7 @@ const Carousel = () => {
             <ImgArrow
               rotate
               alt="img"
-              src={prefix+require("../../../../assets/icons/signature-arrow-prev.svg")}
+              src={require("../../../../assets/icons/signature-arrow-prev.svg")}
             />
           </ButtonImgArrow>
         </RightArrow>
