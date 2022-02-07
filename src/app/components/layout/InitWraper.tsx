@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { GlobalStyle } from "../../../styles/createGlobalStyles";
 import BodyColorChange from "../BodyColorChange";
+import { prefix } from "../../../pages/_app";
 
 const HeaderFooterWraper = ({ children }) => {
   return (
@@ -10,7 +11,7 @@ const HeaderFooterWraper = ({ children }) => {
       <BodyColorChange />
       <Head>
         <title>El Hector</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={prefix + "/favicon.ico"} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link key={0} rel="preconnect" href="https://fonts.gstatic.com" />
         <link
