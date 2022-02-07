@@ -42,7 +42,7 @@ const CarouselDates = [
     picture: require("../../../../assets/image/golf.png"),
   },
 ];
-
+const prefix='/grass'
 const Carousel = () => {
   const [information, setInformation] = useState(0);
   const handleRight = () => {
@@ -64,7 +64,7 @@ const Carousel = () => {
           <ButtonImgArrow onClick={handleLeft}>
             <ImgArrow
               alt="img"
-              src={require("../../../../assets/icons/signature-arrow-prev.svg")}
+              src={prefix+require("../../../../assets/icons/signature-arrow-prev.svg")}
             />
           </ButtonImgArrow>
         </LeftArrow>
