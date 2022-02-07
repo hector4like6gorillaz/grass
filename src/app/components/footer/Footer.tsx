@@ -45,37 +45,37 @@ const Footer = () => {
         <DivContainerMark area="versa">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 1.png")}
+            src={require("../../../../assets/image/logo 1.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="tour">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 3.png")} 
+            src={require("../../../../assets/image/logo 3.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="swi">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 4.png")}
+            src={require("../../../../assets/image/logo 4.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="ice">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 5.png")}
+            src={require("../../../../assets/image/logo 5.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="out">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 6.png")}
+            src={require("../../../../assets/image/logo 6.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="dura">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 7.png")}
+            src={require("../../../../assets/image/logo 7.png")}
           />
         </DivContainerMark>
       </DivCenterMarks>
