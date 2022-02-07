@@ -51,7 +51,7 @@ const Footer = () => {
         <DivContainerMark area="tour">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 3.png")}
+            src={prefix + require("../../../../assets/image/logo 3.png")} 
           />
         </DivContainerMark>
         <DivContainerMark area="swi">
