@@ -39,7 +39,7 @@ const Footer = () => {
         <DivContainerMark area="rg">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 2.png")}
+            src={require("../../../../assets/image/logo 2.png")}
           />
         </DivContainerMark>
         <DivContainerMark area="versa">
@@ -51,7 +51,7 @@ const Footer = () => {
         <DivContainerMark area="tour">
           <ImgLogos
             alt="mark logo"
-            src={prefix + require("../../../../assets/image/logo 3.png")}
+            src={prefix + require("../../../../assets/image/logo 3.png")} 
           />
         </DivContainerMark>
         <DivContainerMark area="swi">
@@ -86,53 +86,37 @@ const Footer = () => {
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix +
-                require("../../../../assets/icons/icons8-facebook-nuevo.svg")
-              }
+              src={require("../../../../assets/icons/icons8-facebook-nuevo.svg")}
             />
           </DivIconsContainer>
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix +
-                require("../../../../assets/icons/icons8-pinterest.svg")
-              }
+              src={require("../../../../assets/icons/icons8-pinterest.svg")}
             />
           </DivIconsContainer>
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix +
-                require("../../../../assets/icons/icons8-youtube-play.svg")
-              }
+              src={require("../../../../assets/icons/icons8-youtube-play.svg")}
             />
           </DivIconsContainer>
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix + require("../../../../assets/icons/icons8-twitter.svg")
-              }
+              src={require("../../../../assets/icons/icons8-twitter.svg")}
             />
           </DivIconsContainer>
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix +
-                require("../../../../assets/icons/icons8-instagram.svg")
-              }
+              src={require("../../../../assets/icons/icons8-instagram.svg")}
             />
           </DivIconsContainer>
           <DivIconsContainer>
             <ImgIcons
               alt="icon"
-              src={
-                prefix + require("../../../../assets/icons/icons8-linkedin.svg")
-              }
+              src={require("../../../../assets/icons/icons8-linkedin.svg")}
             />
           </DivIconsContainer>
         </DivIconsContainersFlex>
