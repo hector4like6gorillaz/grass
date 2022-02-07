@@ -77,7 +77,7 @@ const Carousel = () => {
         <DivImgContainer>
           <ImgCarousell
             alt="img carousel"
-            src={CarouselDates[information].picture}
+            src={prefix+CarouselDates[information].picture}
           />
         </DivImgContainer>
         <RightArrow>
@@ -85,7 +85,7 @@ const Carousel = () => {
             <ImgArrow
               rotate
               alt="img"
-              src={require("../../../../assets/icons/signature-arrow-prev.svg")}
+              src={prefix+require("../../../../assets/icons/signature-arrow-prev.svg")}
             />
           </ButtonImgArrow>
         </RightArrow>

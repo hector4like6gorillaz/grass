@@ -28,11 +28,9 @@ jobs:
         
     - run: npm ci
     - run: npm run build
-      env:
-        NEXT_PUBLIC_BASE_PATH: /grass
+      
     - run: npm run export
-      env:
-        NEXT_PUBLIC_BASE_PATH: /grass
+      
     - run: touch ./out/.nojekyll
 
     - name: Deploy 🚀 yei!!
