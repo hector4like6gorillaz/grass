@@ -1,7 +1,8 @@
 import React from "react";
+import { prefix } from "../../../pages/_app";
 import CardHover from "../cardHover/CardHover";
 import { DivContainerGrid } from "./StyledGridHover";
-const prefix = "/grass";
+
 const Contenidos = [
   {
     Title: "LAWNS",

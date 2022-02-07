@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { prefix } from "../../../pages/_app";
 import {
   ButtonImgArrow,
   DivCarousel,
@@ -15,7 +16,7 @@ import {
   Ptitle,
   RightArrow,
 } from "./styledCarousel";
-const prefix = "/grass";
+
 const CarouselDates = [
   {
     title: "DESIGNED FOR PROFESIONAL GOLFERS",
